@@ -1,0 +1,5 @@
+max-line-length: 120
+max-file-lines: 1000
+max-public-methods: 30
+max-returns: 6
+disable: []

@@ -1,0 +1,71 @@
+{
+  "name": "slime",
+  "output": "res://assets/sprites/enemies/slime.png",
+  "frame_size": [16, 16],
+  "palette": {
+    ".": null,
+    "k": "#1a1c2c",
+    "g": "#38b764",
+    "l": "#a7f070",
+    "d": "#257179",
+    "w": "#f4f4f4"
+  },
+  "outline": "k",
+  "animations": [
+    {
+      "name": "idle",
+      "fps": 3,
+      "loop": true,
+      "frames": [
+        [
+          "................",
+          "................",
+          "................",
+          "................",
+          "................",
+          "................",
+          "......gggg......",
+          "....gglllggg....",
+          "...gglllllggg...",
+          "..gglwkglwkggd..",
+          "..ggglgggggggd..",
+          ".gggggggggggggd.",
+          ".ggggggggggggdd.",
+          ".dggggggggggddd.",
+          "..dddddddddddd..",
+          "................"
+        ],
+        [
+          "................",
+          "................",
+          "................",
+          "................",
+          "................",
+          "................",
+          "................",
+          ".....gggggg.....",
+          "...ggllllgggg...",
+          "..gglllllggggd..",
+          ".gglwkglwkggggd.",
+          ".gggggggggggggd.",
+          ".ggggggggggggdd.",
+          ".dggggggggggddd.",
+          "..dddddddddddd..",
+          "................"
+        ]
+      ]
+    },
+    {
+      "name": "hurt",
+      "fps": 8,
+      "loop": false,
+      "frames": ["idle:1", "idle:0"]
+    },
+    {
+      "name": "idle_flipped",
+      "fps": 3,
+      "loop": true,
+      "flip_x_of": "idle"
+    }
+  ]
+}

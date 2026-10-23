@@ -1,0 +1,32 @@
+# Godot 4 (keep *.import and *.uid files: they are part of the project)
+godot/.godot/
+godot/android/build/
+*.translation
+
+# Builds
+build/
+
+# Rust
+rust/target/
+
+# Claude team local state
+.claude/.state/
+.claude/settings.local.json
+
+# Regenerable art previews
+art_src/preview/
+
+# Secrets — never commit
+.env
+.env.*
+*.keystore
+*.jks
+*.pem
+*.p12
+export_credentials.cfg
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

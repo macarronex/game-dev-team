@@ -1,0 +1,9 @@
+{
+  "move_left":  { "keys": ["A", "Left"],  "joy_buttons": ["dpad_left"],  "joy_axes": [{ "axis": "left_x", "value": -1.0 }] },
+  "move_right": { "keys": ["D", "Right"], "joy_buttons": ["dpad_right"], "joy_axes": [{ "axis": "left_x", "value": 1.0 }] },
+  "move_up":    { "keys": ["W", "Up"],    "joy_buttons": ["dpad_up"],    "joy_axes": [{ "axis": "left_y", "value": -1.0 }] },
+  "move_down":  { "keys": ["S", "Down"],  "joy_buttons": ["dpad_down"],  "joy_axes": [{ "axis": "left_y", "value": 1.0 }] },
+  "jump":       { "keys": ["Space"],      "joy_buttons": ["a"] },
+  "action":     { "keys": ["J"],          "joy_buttons": ["x"], "mouse_buttons": ["left"] },
+  "pause":      { "keys": ["Escape", "P"], "joy_buttons": ["start"] }
+}
